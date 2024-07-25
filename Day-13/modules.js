@@ -38,7 +38,7 @@ import axios from "axios";
 async function getData() {
     try {
         const response = await axios.get(
-            "https://jsonplaceholder.typicode.com/todos/2"
+            "https://jsonplaceholder.typicode.com/todos/1"
         );
         const data = response.data;
         return data;
