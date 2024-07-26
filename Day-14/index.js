@@ -121,11 +121,11 @@ class Account {
 }
 const account = new Account(50);
 console.log(`<---------------Task 9 and Task 10-------------->`);
-console.log(`Initial Balance ${account.balance}`); // Output is 50
-console.log(account.deposite(10)); // Output is 60
-console.log(account.deposite(5000)); // Output is 5060
-console.log(account.widhraw(40000)); // Output is Insufficient Ammount
-console.log(account.deposite(-500)); // Output is Ammount should be positive
-console.log(account.widhraw(-5560)); // Output is Ammount should be positive number
-console.log(account.deposite(500)); // Output is  5660
-console.log(account.widhraw(5400)); // Output is 160
+console.log(`Initial Balance ${account.balance}`); // Output is:--> 50
+console.log(account.deposite(10)); // Output is:--> 60
+console.log(account.deposite(5000)); // Output is:--> 5060
+console.log(account.widhraw(40000)); // Output is:--> Insufficient Ammount
+console.log(account.deposite(-500)); // Output is:--> Ammount should be positive
+console.log(account.widhraw(-5560)); // Output is:--> Ammount should be positive number
+console.log(account.deposite(500)); // Output is:-->  5560
+console.log(account.widhraw(5400)); // Output is:--> 160
